@@ -1,0 +1,20 @@
+h1 {
+	font-family:Helvetica;
+	color: #339933;
+	border: 10px solid #cfc;
+	text-align: center;
+} 
+body {
+	font-family: Helvetica;
+	margin: 10px;
+	text-align: center;
+	background-color: #99ffff;
+	color: #003339;
+	width: 1000px;
+}
+
+button { 
+	font-family: Helvetica;
+	border: 3px;}
+	
+	

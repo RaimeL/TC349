@@ -1,0 +1,3 @@
+function LikeClick () {
+	alert("successful!");}
+	
