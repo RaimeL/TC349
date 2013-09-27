@@ -1,0 +1,25 @@
+body {
+	background: #9999ff;
+	margin: 0 auto;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	border: 7px solid #333366;
+	width: 700px;
+
+}
+
+img {
+	border: 3px solid #fff;
+}
+
+h1 {
+	background: #333366;
+	color: #fff;
+	text-shadow: 1px 1px 2px #ccc;
+	text-align: center;
+	
+}
+
+p {
+	color: #000;
+}
