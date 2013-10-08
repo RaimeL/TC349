@@ -1,0 +1,29 @@
+body {
+	background: #CCCFff;
+	margin: 30;
+	font-family: "Arial", sans-serif;
+	line-height: 1.4em;
+	text-align: left;
+	
+
+}
+h1 {
+	color: #fff;
+	text-shadow: 1px 1px 2px #424242;
+	text-align: center;
+}
+
+h2{
+	width: 650px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+p {
+	width: 650px;
+	margin: 0 auto;
+}
+
+img {
+	border: #fff solid 5px;
+}
