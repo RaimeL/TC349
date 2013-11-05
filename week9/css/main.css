@@ -110,10 +110,16 @@ textarea {
 		color: #fff;
 	}
 	
-	h1, h2, p {
+	h1, h2, p, ul{
 		margin: 0px;
 
 	}
+	
+	ul{
+		list-style-type:none;
+		padding:0;
+	}
+	
 	h2{
 		font-weight:normal;
 		color: #fff;
@@ -123,7 +129,7 @@ textarea {
 		background:#f3f3f3;
 		background-position: center;
 		height: 250px;
-		/*background-image: url('../img/map-pin.jpg');*/
+		transition: background-image 1s;
 	
 	}
 	
@@ -136,8 +142,18 @@ textarea {
 		margin-left: 300px;
 	}
 
+	.gallery li {
+		display: inline-block;
+		margin: 0 2% 2% 0;
+		border: 5px solid #fff;
+		box-shadow: 0 0 10px #ccc;
+		transition: border-color .3s;
+	
+	}
 
-
+	.gallery li:hover{
+		border-color: #aeccf9;
+	}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
