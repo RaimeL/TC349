@@ -277,8 +277,15 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 600px) {
+	nav {
+		float:none;
+		width: auto;
+	}
+	article{
+		margin-left:20px;
+	}
+    
 }
 
 @media print,
